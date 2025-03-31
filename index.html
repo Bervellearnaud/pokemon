@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokémon Finder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Pokémon Finder</h1>
+      <label for="type-select">Sélectionnez un type :</label>
+      <select id="type-select">
+        <option value="">Tous</option>
+        <option value="fire">Feu</option>
+        <option value="water">Eau</option>
+        <option value="grass">Plante</option>
+        <option value="electric">Électrik</option>
+        <option value="ice">Glace</option>
+        <option value="fighting">Combat</option>
+        <option value="poison">Poison</option>
+        <option value="ground">Sol</option>
+        <option value="flying">Vol</option>
+        <option value="psychic">Psy</option>
+        <option value="bug">Insecte</option>
+        <option value="rock">Roche</option>
+        <option value="ghost">Spectre</option>
+        <option value="dragon">Dragon</option>
+        <option value="dark">Ténèbres</option>
+        <option value="steel">Acier</option>
+        <option value="fairy">Fée</option>
+      </select>
+      <button onclick="getRandomPokemon()">Obtenir un Pokémon</button>
+
+      <div id="pokemon-display">
+        <h2 id="pokemon-name"></h2>
+        <img id="pokemon-image" src="" alt="Pokémon" style="display: none" />
+        <p id="pokemon-type"></p>
+      </div>
+    </div>
+
+    <script src="script2.js"></script>
+  </body>
+</html>

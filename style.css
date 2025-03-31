@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #ff5733;
+}
+
+select,
+button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #ff5733;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #e64a19;
+}
+
+#pokemon-display {
+  margin-top: 20px;
+}
+
+#pokemon-image {
+  max-width: 150px;
+  display: block;
+  margin: 10px auto;
+}
